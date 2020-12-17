@@ -33,7 +33,7 @@ export const AuthPage = () => {
     return (
         <div className="row">
             <div className="col s6 offset-s3">
-                <h1>Short link</h1>
+                <h2 className="tac">ShortYourLink</h2>
                 <div className="card blue-grey darken-1">
                     <div className="card-content white-text">
                         <span className="card-title">Authorization</span>
