@@ -14,6 +14,9 @@ export const AuthPage = () => {
         message(error)
         clearError()
     }, [error, message, clearError])
+    useEffect(() => {
+        window.M.updateTextFields() // fix for labels of fields on Auth page
+    }, [])
     const changeHandler = e => {
         setForm({...form, [e.target.name]: e.target.value})
     }
