@@ -42,11 +42,11 @@ export const AuthPage = () => {
                         <span className="card-title">Authorization</span>
                         <div>
                             <div className="input-field">
-                                <input id="email" type="text" placeholder="Email" name="email" onChange={changeHandler} />
+                                <input id="email" type="text" placeholder="Email" name="email" value={form.email} onChange={changeHandler} />
                                 <label htmlFor="email">Email</label>
                             </div>
                             <div className="input-field">
-                                <input id="password" type="password" placeholder="Password" name="password" onChange={changeHandler} />
+                                <input id="password" type="password" placeholder="Password" name="password" value={form.password} onChange={changeHandler} />
                                 <label htmlFor="password">Password</label>
                             </div>
                         </div>
